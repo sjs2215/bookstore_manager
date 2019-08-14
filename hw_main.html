@@ -1,0 +1,25 @@
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=utf-8">
+</head>
+<body>
+<h1>마당 서점 회원관리 시스템</h1>
+<a href='hw_customer_select.php'>(1) 회원 조회 (조회 후 수정/삭제 가능) </a> <br><br>
+<a href='hw_book_select.php'>(2) 도서 조회 (조회 후 주문 가능) </a> <br><br>
+<a href='hw_publisher_select.php'>(3) 출판사 조회 </a> <br><br>
+<a href='hw_orders_select.php'>(4) 주문 조회 </a> <br><br>
+<a href='hw_customer_insert.php'>(6) 신규 회원 추가</a> <br><br>
+<a href='hw_book_insert.php'>(7) 신규 도서 추가</a> <br><br>
+<a href='hw_publisher_insert.php'>(8) 신규 출판사 추가</a> <br><br>
+
+<form method="get" ACTION="hw_update.php">
+(9) 회원수정-회원아이디: <input type="text" name="custid">
+<input type="submit" value="수정">
+</form>
+
+<form method="get" ACTION="hw_delete.php">
+(10) 회원삭제-회원아이디: <input type="text" name="custid">
+<input type="submit" value="삭제">
+</form>
+</body>
+</html>
