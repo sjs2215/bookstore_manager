@@ -40,3 +40,15 @@ index.html 파일 뜸
 
 - localhost:80/hw_main.html (파일명.확장자) 
 
+</br>
+
+#### 에러 주의
+
+- php socket error
+
+작업 관리자 들어가서 80 포트 kill 해주기 
+
+- mysqli_connect(servername)  -> access denied error
+
+서버 이름은 root인지 localhost인지 127.0.0.1:3307인지 명확하게 하기 
+
